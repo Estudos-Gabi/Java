@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Internet {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc;
+        sc = new Scanner(System.in);
 
         int t = sc.nextInt();
         int l3 = t;
@@ -13,5 +14,7 @@ public class Internet {
            int  l1 = l2 * 2;
             System.out.println(l1);
         }
+
+        sc.close();
     }
 }

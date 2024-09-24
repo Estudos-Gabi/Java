@@ -11,6 +11,6 @@ public class Area_circulo {
         double raio = sc.nextDouble();
         double area = n * Math.pow(raio, 2);
         System.out.printf("A= %.4f%n", area);
-
+        sc.close();
     }
 }

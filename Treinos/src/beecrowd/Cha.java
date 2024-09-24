@@ -6,7 +6,8 @@ import java.util.Scanner;
 public class Cha {
 
     public static void main(String[] args) throws IOException {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc;
+        sc = new Scanner(System.in);
 
         int T = sc.nextInt();
         int contador = 0;
@@ -19,7 +20,7 @@ public class Cha {
         }
         System.out.println(contador);
 
-
+        sc.close();
     }
 
 
